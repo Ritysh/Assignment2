@@ -2,7 +2,8 @@
 title: "Collaborative Research Proposal"
 author: "Rafael Goldzweig and Rita Martinez"
 date: "7 October 2016"
-output: html_document
+bibliography: References.bib
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -20,7 +21,6 @@ When you click the **Knit** button a document will be generated that includes bo
 ## Data Sources
 
 ```{r cars}
-summary(cars)
 ```
 
 ## Methodology
@@ -28,7 +28,10 @@ summary(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+@howard2010routledge
