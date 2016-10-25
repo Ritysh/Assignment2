@@ -1,7 +1,7 @@
 ---
 title: "Collaborative Research Proposal"
 author: "Rafael Goldzweig and Rita Martinez"
-date: "7 October 2016"
+date: "28 October 2016"
 bibliography: References.bib
 output: pdf_document
 ---
@@ -9,6 +9,69 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+```{r setup, include=FALSE}
+install.packages("stargazer")
+install.packages("magrittr")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("tidyr")
+install.packages("aod")
+install.packages("plm")
+install.packages("lmtest")
+install.packages("survey")
+install.packages("gplots")
+install.packages("sandwich")
+install.packages("interplot")
+install.packages("effects")
+install.packages("tseries") 
+library(magrittr)  # piping for better readable code
+library(foreign)  # for opening .dta-files
+library(dplyr)  # for easy data wrangling, and loads magrittr
+library(ggplot2)  # for plotting
+library(stargazer)  # for regression tables
+library(texreg)  # another package for producing regression tables
+library(plm)  # package for panel models such as fe, re, or fd
+library(lmtest)  # for coeftest()
+library(gridExtra) # combining ggplots
+library(car)
+library(tidyr)
+library(aod)
+library(survey)
+library(sandwich)
+library(gplots)
+library(interplot)
+library(effects)
+library(tseries) 
+```
+
+
+```{r_WD, include=FALSE}
+setwd('C:/Users/Schmuziger/Desktop/Assignment2')
+```
+
+I. RESEARCH QUESTION
+
+The turnout rate is influenced by many factors that may be related to age, race/ethnicity, gender, socio-economic status and political/economical situation of the country. In this broad spectrum of variables that influence participation of voters in elections, this article will focus specifically on whether unemployment has a bigger impact in youth turnout in the case of Spain, if compared to the general impact that unemployment has on voter turnout. The case study is interesting for the recent change in the political system of the country, that went from a party system traditionally dominated by the PP (center-right) and the PSOE (center-left) to a multy party system where the Podemos (left) and Ciudadanos (liberal/center-right) reached the national parliament with a significant vote share in the recent elections. Our guess is that, since youth unemployment rates in Spain reached X% as a result of the euro crisis, youth turnout was among the reasons to explain why the party system changed so drastically in recent years.  
+
+II. Theory 
+
+Our theory is that the youth turnout is positively impacted by the high unemployment rates. In order to analyze this relation statistically, we expect to reject the following null-hypothesis (Ho):
+
+Ho = There is no relation between the increase in the unemployment rates and the increased turnout from young people.
+
+LITERATURE REVIEW:
+
+Literature on voter behavior tend to rely mainly on the incumbency-oriented hypothesis, which claims that voters tend to reward or punish government in elections according to the economic performance of the country (CHANGE @dassonneville2013economic). In that sense, objective or subjective economic indicators such as unemployment rates, inflation, growth and other related aspects have the potential to explain part of the variance in government support (@lewis2000economic). Citizen dissatisfaction with economic performance substantially increases the possibility to vote against the incumbent. While some authors believe that the state of employment does not have a detectable effect upon voting behavior (@stigler1973general), others have reasons to believe that unemployment rates play a role depending on the political identification of the incumbent party (@dassonneville2013economic), with left-wing governments suffering more from hign unemployment rates than right-wing governments (CHECK).
+
+it is even more important
+than long-term factors such as partisan identification, because of its greater
+volatility 
+
+
+
+
+In many democracies, the population has been increasingly using internet to get information, discuss political issues or participate in the political process. Also, in autocracies, internet is said to be a driver for political change, in some cases. 
 
 ## Research Question
 
