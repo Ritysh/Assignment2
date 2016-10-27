@@ -10,7 +10,7 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r setup, include=FALSE}
+```{r pack, include=FALSE}
 install.packages("stargazer")
 install.packages("magrittr")
 install.packages("dplyr")
