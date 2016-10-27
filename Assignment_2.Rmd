@@ -56,13 +56,20 @@ The turnout rate is influenced by many factors that may be related to age, race/
 
 We are also interested to see if youth unemployment movilize voters with more intensity in regions where there is more young people. If this is the case, this effect can come from three different sources: because older people feel the resposability to vote more given the amount of young people unemployed, because young people go to vote more or because of a combination of the two factors above.
 
-This case study is interesting for the recent change in the political system of the country, that went from a party system traditionally dominated by the PP (center-right) and the PSOE (center-left) to a multy party system where the Podemos (left) and Ciudadanos (liberal/center-right) reached the national parliament with a significant vote share in the recent elections. Our guess is that, since youth unemployment rates in Spain reached X% as a result of the euro crisis, youth turnout was among the reasons to explain why the party system changed so drastically in recent years.  
+This case study is interesting for the recent change in the political system of the country, that went from a party system traditionally dominated by the PP (center-right) and the PSOE (center-left) to a multy party system where the Podemos (left) and Ciudadanos (liberal/center-right) reached the national parliament with a significant vote share in the recent national elections. Our guess is that, since youth unemployment rates in Spain was significantly high in recent years as a result of the euro crisis reaching 48.1\%  in 2015 (Source: Eurostat), young voters turnout or other kind of voters infleunced by their feeling of responsability towards young people were among the reasons to explain why the party system changed so drastically in recent years.  
 
 II. Theory 
 
-Our theory is that the youth turnout is positively impacted by the high unemployment rates. In order to analyze this relation statistically, we expect to reject the following null-hypothesis (Ho):
+Our theory is that turnout is positively impacted by the youth unemployment rates and even going further, that the effect of youth unemployment on tunout depends positively on the amount of young people. 
 
-Ho = There is no relation between the increase in the unemployment rates and the increased turnout from young people.
+In order to analyze this relation statistically, we propose the following model:
+
+
+$Turnout_{i,t}=\beta_0+\beta_1 Youth\ Unemployment_{i,t}+\beta_2 \% Young\ People + \beta_3 Youth\ Unemployment*\% Young\ People + \delta_i + u_{i,t}$
+
+where $i$ represents each of the 17 regions (Autonomus Communities) of Spain, $t$ represent the most recent years where general elections where held: 2004, 2008, 2011 and 2015 and $\delta_i$ represents regional fixed effects. 
+
+The coefficients of interest are $\beta_1$ and $\beta_3$
 
 LITERATURE REVIEW:
 
