@@ -71,6 +71,7 @@ III. STATISTICAL MODEL AND HYPOTHESIS
 Our theory is that turnout is positively impacted by higher youth unemployment rates and even going further, that the effect of youth unemployment on tunout depends positively on the amount of young people. In that sense, we aim to reject the following hypotheses:
 
 H0 = there is no relation between youth unemployment and turnout.
+
 H1 = the amount of young people able to vote in a given region does not affect the relationship between youth unemployment and turnout.
 
 In order to analyze this relation statistically, we propose the following model:
