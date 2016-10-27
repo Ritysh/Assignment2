@@ -9,22 +9,30 @@ output: pdf_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<
+comment
+>
 
 ```{r pack, include=FALSE}
-install.packages("stargazer")
-install.packages("magrittr")
-install.packages("dplyr")
-install.packages("ggplot2")
-install.packages("tidyr")
-install.packages("aod")
-install.packages("plm")
-install.packages("lmtest")
-install.packages("survey")
-install.packages("gplots")
-install.packages("sandwich")
-install.packages("interplot")
-install.packages("effects")
-install.packages("tseries") 
+if (!require('stargazer')) 
+{
+  install.packages('stargazer');
+  library(stargazer);
+}
+
+install.packages("magrittr", repos = 'http://cran.us.r-project.org')
+install.packages("dplyr", repos = 'http://cran.us.r-project.org')
+install.packages("ggplot2", repos = 'http://cran.us.r-project.org')
+install.packages("tidyr", repos = 'http://cran.us.r-project.org')
+install.packages("aod", repos = 'http://cran.us.r-project.org')
+install.packages("plm", repos = 'http://cran.us.r-project.org')
+install.packages("lmtest", repos = 'http://cran.us.r-project.org')
+install.packages("survey", repos = 'http://cran.us.r-project.org')
+install.packages("gplots", repos = 'http://cran.us.r-project.org')
+install.packages("sandwich", repos = 'http://cran.us.r-project.org')
+install.packages("interplot", repos = 'http://cran.us.r-project.org')
+install.packages("effects", repos = 'http://cran.us.r-project.org')
+install.packages("tseries", repos = 'http://cran.us.r-project.org') 
 library(magrittr)  # piping for better readable code
 library(foreign)  # for opening .dta-files
 library(dplyr)  # for easy data wrangling, and loads magrittr
@@ -43,11 +51,6 @@ library(gplots)
 library(interplot)
 library(effects)
 library(tseries) 
-```
-
-
-```{r_WD, include=FALSE}
-setwd('C:/Users/Schmuziger/Desktop/Assignment2')
 ```
 
 I. RESEARCH QUESTION
