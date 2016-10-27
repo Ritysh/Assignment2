@@ -1,6 +1,6 @@
 ---
 title: "Collaborative Research Proposal"
-author: "Rafael Goldzweig and Rita Martinez"
+author: "Rafael Goldzweig and Rita Alvarez Martinez"
 date: "28 October 2016"
 bibliography: References.bib
 output: pdf_document
@@ -58,7 +58,7 @@ We are also interested to see if youth unemployment movilize voters with more in
 
 This case study is interesting for the recent change in the political system of the country, that went from a party system traditionally dominated by the PP (center-right) and the PSOE (center-left) to a multy party system where the Podemos (left) and Ciudadanos (liberal/center-right) reached the national parliament with a significant vote share in the recent national elections. Our guess is that, since youth unemployment rates in Spain was significantly high in recent years as a result of the euro crisis reaching 48.1\%  in 2015 (Source: Eurostat), young voters turnout or other kind of voters infleunced by their feeling of responsability towards young people were among the reasons to explain why the party system changed so drastically in recent years.  
 
-II. Theory 
+II. Theory and statistical model
 
 Our theory is that turnout is positively impacted by the youth unemployment rates and even going further, that the effect of youth unemployment on tunout depends positively on the amount of young people. 
 
@@ -74,6 +74,12 @@ The coefficients of interest are $\beta_1$ and $\beta_3$
 LITERATURE REVIEW:
 
 Literature on voter behavior tend to rely mainly on the incumbency-oriented hypothesis, which claims that voters tend to reward or punish government in elections according to the economic performance of the country (CHANGE @dassonneville2013economic). In that sense, objective or subjective economic indicators such as unemployment rates, inflation, growth and other related aspects have the potential to explain part of the variance in government support (@lewis2000economic). Citizen dissatisfaction with economic performance substantially increases the possibility to vote against the incumbent. While some authors believe that the state of employment does not have a detectable effect upon voting behavior (@stigler1973general), others have reasons to believe that unemployment rates play a role depending on the political identification of the incumbent party (@dassonneville2013economic), with left-wing governments suffering more from hign unemployment rates than right-wing governments (CHECK).
+
+Another study goes beyond this polarization of the effect of unemployment on turnout by pointing out that individuals perceive job loss as a personal problem when the unemployment rate is low and a social problem when the unemployment rate is high. Therefore, job loss is a mobilizing experience when the unemployment rate is high. In particular, "unemployed Americans' political behavior is
+meaningfully influenced by unemployment context to an extent that we do not observe among gainfully employed Americans" (@incantalupo2011effects). This finding is particularly interesting in the context of our research. Although our study is based in Spain we don't expect this kind of behaviour to be completly different than the U.S case and this could mean that young unemployed, in a high unemployment context, would show higher turnout in the election day affecting thus the political outcome.
+
+
+
 
 it is even more important
 than long-term factors such as partisan identification, because of its greater
@@ -107,5 +113,7 @@ You can also embed plots, for example:
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-
 @howard2010routledge
+
+##Bibliography
+
